@@ -20,14 +20,18 @@
         }
     </style>
 
- <!--    передача UTM-->
+     <!--    передача UTM-->
 
     <script type="text/javascript">
 
             var param = location.search;
 
             $(document).ready(function() {
+                $('.priceGeo').each(function() {
+                    $(this).text("всего за 99 рублей для граждан России и 550 тенге для жителей Казахстана");
+                });
                 $('a').each(function() {
+                    //99 рублей
                     $(this).attr('href', 'http://click.luckyshop.ru/click/go/a726d0eb-8485-44c4-9324-fb9184d2d4da.html' + param);
                 });
             });
