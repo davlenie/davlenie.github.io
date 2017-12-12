@@ -8,7 +8,7 @@
 body { margin: 0px; padding: 0px; font-family: Arial,Tahoma,sans-serif; font-size: 15px; background: rgb(248, 246, 243) none repeat scroll 0% 0%; }
 a { color: rgb(10, 120, 194); outline: medium none; text-decoration: underline; }
 a:hover { text-decoration: none; }
-p { margin: 0px 10px 11px; text-align: justify; }
+p { margin: 0px 0px 11px; text-align: justify; }
 img { border: medium none; display: inline-block; }
 .middle { width: 100%; max-width: 600px; margin: 10px auto; text-align: center; }
 .wrapper { width: 98%; max-width: 960px; margin: 0px auto; border: 1px solid rgb(204, 204, 204); }
@@ -18,7 +18,9 @@ a.head { text-decoration: none; }
 .miniHeader { display: none; }
 #content { text-align: left; font-size: 16px; line-height: 24px; }
 #content .padWrap { padding: 15px; background-color: #fff;}
-#content img { max-width: 100%; display: block;}
+#content img {     max-width: 100%;
+    display: block;
+    margin: 20px 0px;}
 #comments { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
 #comments h2 { background: rgb(77, 83, 96) none repeat scroll 0% 0%; padding: 15px; color: rgb(255, 255, 255); font-size: 32px; font-weight: normal; margin: 0px; }
 #comments .item { text-align: left; padding: 10px; margin: 10px 0px; min-height: 80px; border-bottom: 1px solid rgb(229, 229, 229); }
